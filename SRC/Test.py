@@ -1,1 +1,2 @@
-hhuhfius
+import os
+os.system("iwconfig")
