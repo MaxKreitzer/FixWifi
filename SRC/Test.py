@@ -9,3 +9,7 @@ if str(input()) == "YES":
     print("wifi reestablished")
 else:
     print("ok")
+if str(input()) == "NO":
+    print("exit program")
+else:
+    print("ok")
