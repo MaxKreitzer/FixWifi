@@ -1,9 +1,11 @@
-import subprocess
+import os
 import time
 print("Would you like to run FixWifi")
 if str(input()) == "YES":
-    subprocess.run("rfkill block wifi")
-    time.sleep(3)
-    subprocess.run("rfkill unblock wifi")
+    os.system("nmcli radio wifi off")
+    print("wifi now disabled")
+    time.sleep(10)
+    os.system("nmcli radio wifi on")
+    print("wifi reestablished")
 else:
     print("ok")
