@@ -1,5 +1,9 @@
 import subprocess
+import time
 print("Would you like to run FixWifi")
-if input() ="YES":
-    subprocess.run("iwconfig")
+if str(input()) == "YES":
+    subprocess.run("rfkill block wifi")
+    time.sleep(3)
+    subprocess.run("rfkill unblock wifi")
 else:
+    print("ok")
