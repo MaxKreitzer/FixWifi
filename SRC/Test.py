@@ -13,6 +13,6 @@ import time
 #!/usr/bin/python3
 import tkinter as tk
 win = tk.Tk()
-win.title("Howdy")
+win.title("FixWifi")
 mylabel=tk
 win.mainloop()
