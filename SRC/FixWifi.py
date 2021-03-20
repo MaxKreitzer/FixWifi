@@ -2,10 +2,15 @@
 import tkinter as tk
 #import os
 #import time
-#win = tk.Tk()
-#win.title("FixWifi")
+win = tk.Tk()
+win.title("FixWifi")
 #print("Would you like to run FixWifi")
-#mylabel = tk.Label(win, text="Would you like to run FixWifi")
+mylabel = tk.Label(win, text="Would you like to run FixWifi?")
+mylabel.pack()
+myButton = tk.Button(win, text="Yes", fg=("green"))
+myButton2 = tk.Button(win, text="No")
+myButton.pack()
+myButton2.pack()
 #if str(input()) == "YES":
 #    os.system("nmcli radio wifi off")
 #    #print("wifi now disabled")
@@ -17,13 +22,5 @@ import tkinter as tk
 #else:
     #print("FixWifi did not run.")
 #    mylabel = tk.Label(win, text="FixWifi did not run.")
-#win.mainloop()
-
-#!/usr/bin/python3
-#import tkinter as tk
-#win = tk.Tk()
-#win.title("Howdy")
-#mylabel=tk.Label(win,text = "Hello",font=("comforta",60,"bold"))
-#mylabel.pack()
-#win.mainloop()
+win.mainloop()
 
