@@ -1,5 +1,5 @@
 # FixWifi
-_A compact easy, and free way to keep your WiFi connection stable
+A compact easy, and free way to keep your WiFi connection stable
 
 ## Description
 The program uses python to interact with your computers terminal, monitoring and maintaining your computer's WiFi connection.
