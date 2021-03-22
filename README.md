@@ -1,6 +1,5 @@
 # FixWifi
-===========
-qsh -_A compact easy, and free way to keep your WiFi connection stable
+_A compact easy, and free way to keep your WiFi connection stable
 
 ## Description
 The program uses python to interact with your computers terminal, monitoring and maintaining your computer's WiFi connection.
@@ -12,4 +11,4 @@ This project will likely not be updated regularly, if at all
 
 ## License
 This project is licensed under the MIT license. See 'LICENSE' for more details.
-===========
+
