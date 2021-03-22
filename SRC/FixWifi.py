@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import tkinter as tk
 #import os
-import time
+#import time
 win = tk.Tk()
 win.title("FixWifi")
 
@@ -15,9 +15,9 @@ def buttonclick():
 
     Disable = tk.Label(win, text="Disabling wifi please wait...")
     Disable.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
-
-
+    win.after(5000)
     Disable.destroy()
+
     Enable = tk.Label(win, text="Re-enabling Wifi...")
     Enable.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
@@ -26,7 +26,7 @@ noButton = tk.Button(win, text="No", fg=("red"), padx=40, pady=20, command=butto
 
 yesButton.grid(row=2, column=1)
 noButton.grid(row=2,column=2)
-#myButton2 = tk.Button(win, text="No")
+
 #if str(input()) == "YES":
 #    os.system("nmcli radio wifi off")
 #    #print("wifi now disabled")
@@ -38,5 +38,6 @@ noButton.grid(row=2,column=2)
 #else:
     #print("FixWifi did not run.")
 #    mylabel = tk.Label(win, text="FixWifi did not run.")
+
 win.mainloop()
 
